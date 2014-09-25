@@ -1,0 +1,23 @@
+{
+    "name": "soaringpenguin/assets",
+    "description": "",
+    "authors": [
+        {
+            "name": "Soaring Penguin",
+            "email": "info@soaringpenguin.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Soaringpenguin\\Assets\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

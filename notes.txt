@@ -1,0 +1,18 @@
+Modules:
+- publishers
+- shops:
+    - regions
+
+- books:
+    - categories
+    - series
+    - assets
+    - creators
+
+- orders
+
+
+Answers:
+    
+
+

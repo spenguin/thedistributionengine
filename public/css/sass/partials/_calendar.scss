@@ -1,0 +1,21 @@
+/**
+ *  Calendar
+ */
+    table#calendar {
+        width: 100%;
+        th {
+            text-align: center;
+            font-weight:bold;
+            padding: 0.4rem 0;
+            font-size: 1.6rem;
+        }
+        .days td {
+            font-weight: bold;
+        }
+        td.current {
+            color: $blue;
+        }
+        td a {
+            color: $orange;
+        }
+    }

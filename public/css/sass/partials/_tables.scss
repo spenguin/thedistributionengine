@@ -1,0 +1,16 @@
+table {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 20px;
+    width: 60%;
+    tr {
+        height: 2rem;
+        vertical-align: middle;
+    }
+    tr.odd {
+        background-color: $lightgreen;
+    }
+    td {
+        vertical-align: middle;
+    }
+}

@@ -1,0 +1,21 @@
+/**
+ *  Headings
+ */
+    h1, h2, h3, h4 {
+        font-family: 'elephant', Georgia, serif;
+        color: $bronze;
+    }
+    
+    h1 {
+        font-size: 3.0rem;
+        header & {
+            width: 500px;
+            height: 125px;
+            text-indent: -5000px;
+            background: url( ../../img/distributionengine-logo.png ) no-repeat;
+            margin: 0 auto;           
+        }
+    }
+    h2 {
+       font-size: 1.5rem;
+    }

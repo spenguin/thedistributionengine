@@ -1,0 +1,43 @@
+// Modules and Variables
+@import "partials/base";
+
+// Partials
+@import "partials/reset";
+@import "partials/structure";
+@import "partials/navigation";
+@import "partials/headings";
+@import "partials/forms";
+@import "partials/tables";
+@import "modules/publishers";
+//@import "partials/calendar";
+
+// Third-party
+//@import "vendor/skeleton/layout"; 
+@import "vendor/skeleton/skeleton";     // Modified to overwrite the default 960px width
+
+@font-face {
+    font-family: 'elephantregular';
+    src: url('vendor/fonts/elephnt.eot');
+    src: url('vendor/fonts/elephnt.eot?#iefix') format('embedded-opentype'),
+         url('vendor/fonts/elephnt.woff') format('woff'),
+         url('vendor/fonts/elephnt.ttf') format('truetype'),
+         url('vendor/fonts/elephnt.svg#elephantregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'elephantitalic';
+    src: url('vendor/fonts/elephnti.eot');
+    src: url('vendor/fonts/elephnti.eot?#iefix') format('embedded-opentype'),
+         url('vendor/fonts/elephnti.woff') format('woff'),
+         url('vendor/fonts/elephnti.ttf') format('truetype'),
+         url('vendor/fonts/elephnti.svg#elephantitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

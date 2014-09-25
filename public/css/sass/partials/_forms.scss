@@ -1,0 +1,53 @@
+fieldset {
+    border: 1px solid $bronze;
+    margin: 0 auto;
+    padding: 20px;
+    width: 60%;
+    @include border-radius( 10px );
+    font-size: 1.2rem;
+}
+input[type="submit"] {
+    padding: 5px 20px;
+    background-color: $bronze;
+    color: $lightbronze;
+    font-weight: bold;
+    border: 1px solid $darkbronze;
+    margin: 12px 0;
+    @include border-radius( 5px );
+    box-shadow: 2px 2px 5px $darkbronze;
+    width: auto;
+    height: auto;
+}
+
+form div {
+    float: left;
+    margin: 7px 0 12px 0;
+    width: 100%;
+    label {
+        float: left;
+        width: 30%;
+        font-family: Tahoma, "Droid Sans", Verdana, sans-serif;
+    }
+    input {
+        float: left;
+        width: 40%;
+        margin-left: 5%;
+        height: 20px;
+    }
+    textarea {
+        float: left;
+        width: 40%;
+        margin-left: 5%;
+        height: 100px;
+    }
+    select {
+        float: left;
+        width: 40%;
+        margin-left: 5%;
+        height: 20px;
+    }
+    a {
+        font-size: 1.0rem;
+    }
+}
+    
